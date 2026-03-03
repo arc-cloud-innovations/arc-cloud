@@ -1,28 +1,162 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>ARC Cloud Innovations</title>
-  <meta charset="UTF-8">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      text-align: center;
-      padding-top: 100px;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-    p {
-      color: #555;
-      font-size: 18px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Team | Fixing Design-Developer Handoff</title>
+    <meta name="description" content="Fixing design-developer handoff for fast-moving SaaS teams.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <nav class="navbar fade-in-up">
+        <div class="logo">SaaS <span>Team</span></div>
+        <div class="nav-links">
+            <a href="#problem">The Problem</a>
+            <a href="#features">Platform</a>
+            <a href="#demo" class="btn btn-outline">Book Demo</a>
+        </div>
+    </nav>
 
-  <h1>Welcome to ARC Cloud Innovations 🌍</h1>
-  <p>This website is hosted for FREE using ARC Cloud Innovations.</p>
+    <header class="hero">
+        <div class="hero-content fade-in-up" style="animation-delay: 0.2s;">
+            <div class="badge">🚀 Built for fast-moving SaaS</div>
+            <h1>Fixing design–developer <span class="gradient-text">handoff</span> once and for all.</h1>
+            <p>We help SaaS teams reduce rework and delays caused by poor design–developer handoff. Ship features faster, eliminate guesswork, and scale your product without breaking.</p>
+            <div class="hero-actions">
+                <a href="#demo" class="btn btn-primary glow-effect" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center;">Start Solving Handoffs</a>
+                <a href="#features" class="btn btn-secondary" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center;">Platform Overview</a>
+            </div>
+        </div>
+        <div class="hero-visual fade-in-up" style="animation-delay: 0.4s;">
+            <div class="glass-card dashboard-mockup">
+                <div class="mockup-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="mockup-body">
+                    <div class="handoff-item pending">
+                        <div class="icon">🔍</div>
+                        <div class="details">
+                            <h4>Design → Engineering</h4>
+                            <p>Missing edge cases & blank states...</p>
+                        </div>
+                    </div>
+                    <div class="handoff-item error">
+                        <div class="icon">⚠️</div>
+                        <div class="details" style="color: #ef4444;">
+                            <h4>Frontend Implementation</h4>
+                            <p>Colors and Spacing inconsistent with Figma</p>
+                        </div>
+                    </div>
+                     <div class="handoff-item success">
+                        <div class="icon">✓</div>
+                        <div class="details">
+                            <h4>With SaaS Team</h4>
+                            <p>Assets securely linked, 100% documented.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <section id="problem" class="section">
+        <div class="section-header scroll-reveal">
+            <h2>Why This Hurts SaaS Growth</h2>
+            <p>SaaS teams feel this pain every day. It costs time, money, and momentum.</p>
+        </div>
+        <div class="grid">
+            <div class="glass-card scroll-reveal" style="transition-delay: 0.1s;">
+                <div class="card-icon">⏳</div>
+                <h3>Endless Rework</h3>
+                <p>Developers spend hours guessing intended behaviors. Missing hover states, loading states, and responsive breakpoints require endless back-and-forth Slack messages.</p>
+            </div>
+            <div class="glass-card scroll-reveal" style="transition-delay: 0.2s;">
+                <div class="card-icon">💸</div>
+                <h3>Expensive Delays</h3>
+                <p>Features that should take 2 days stretch into 2 weeks. Every delayed sprint costs your SaaS business money and pushes your roadmap further behind.</p>
+            </div>
+            <div class="glass-card scroll-reveal" style="transition-delay: 0.3s;">
+                <div class="card-icon">📉</div>
+                <h3>Broken User Experiences</h3>
+                <p>When "pixel perfect" gets lost in translation, your users suffer. Inconsistent UI elements, broken layouts, and missing error states directly impact customer trust.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW PLATFORM FEATURES SECTION -->
+    <section id="features" class="section">
+        <div class="section-header scroll-reveal">
+            <h2>The Highly Scalable Platform Solution</h2>
+            <p>Built exclusively to fix the handoff gap for scaling engineering teams.</p>
+        </div>
+        <div class="grid features-grid">
+            <div class="glass-card scroll-reveal" style="transition-delay: 0.1s;">
+                <div class="card-icon">⚡️</div>
+                <h3>Component Translation Engine</h3>
+                <p>Stop translating Figma variables manually. Our backend syncs directly with your React/Flutter component libraries to ensure devs build exactly what was designed.</p>
+            </div>
+            <div class="glass-card scroll-reveal" style="transition-delay: 0.2s;">
+                <div class="card-icon">🧠</div>
+                <h3>Automated State Detection</h3>
+                <p>Before any design reaches Jira, our AI scans the screens to ensure all edge cases, loading states, blank slates, and error modals are documented for developers.</p>
+            </div>
+            <div class="glass-card scroll-reveal" style="transition-delay: 0.3s;">
+                <div class="card-icon">🔐</div>
+                <h3>Enterprise Scale Security</h3>
+                <p>SOC-2 compliant infrastructure guarantees that your proprietary IP, unreleased product roadmap features, and design assets never leak or get lost.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="section">
+        <div class="glass-card demo-container scroll-reveal">
+            <div class="demo-header">
+                <h2>Ready to eliminate handoff friction?</h2>
+                <p>Tell us exactly where it hurts. We'll show you how SaaS Team fixes it.</p>
+            </div>
+            
+            <form id="demoForm" class="demo-form">
+                <div class="form-group">
+                    <label>Which handoff problems are slowing your SaaS team down?</label>
+                    <div class="checkbox-group">
+                        <label class="custom-checkbox"><input type="checkbox" name="pain" value="Missing UI states (hover, loading, error, success)"><span class="checkmark"></span>Missing UI states (hover, loading, error, success)</label>
+                        <label class="custom-checkbox"><input type="checkbox" name="pain" value="Inconsistent styling (colors/fonts/spacing mismatch)"><span class="checkmark"></span>Inconsistent styling (colors/fonts/spacing mismatch)</label>
+                        <label class="custom-checkbox"><input type="checkbox" name="pain" value="Delayed sprints due to endless QA back-and-forth"><span class="checkmark"></span>Delayed sprints due to endless QA back-and-forth</label>
+                        <label class="custom-checkbox"><input type="checkbox" name="pain" value="Lost assets, wrong versions, or unlinked Figma files"><span class="checkmark"></span>Lost assets, wrong versions, or unlinked Figma files</label>
+                        <label class="custom-checkbox"><input type="checkbox" name="pain" value="Developers guessing logic/behaviors not in the design"><span class="checkmark"></span>Developers guessing logic/behaviors not in the design</label>
+                        <label class="custom-checkbox"><input type="checkbox" name="pain" value="No responsive breakpoints or mobile designs provided"><span class="checkmark"></span>No responsive breakpoints or mobile designs provided</label>
+                        <label class="custom-checkbox"><input type="checkbox" name="pain" value="Animations and micro-interactions completely ignored"><span class="checkmark"></span>Animations and micro-interactions completely ignored</label>
+                        <label class="custom-checkbox"><input type="checkbox" name="pain" value="Accessibility (a11y) requirements forgotten"><span class="checkmark"></span>Accessibility (a11y) requirements forgotten</label>
+                        <label class="custom-checkbox"><input type="checkbox" name="pain" value="Hard-coded dummy data breaking the real backend integration"><span class="checkmark"></span>Hard-coded dummy data breaking the real backend integration</label>
+                        <label class="custom-checkbox"><input type="checkbox" name="pain" value="Design system components continuously detached or broken"><span class="checkmark"></span>Design system components continuously detached or broken</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="exactPain">Describe your exact, most painful handoff problem:</label>
+                    <textarea id="exactPain" name="exactPain" rows="4" placeholder="e.g. 'Our frontend devs always guess the spacing because our Figma files are messy...'"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Checkout & Send Demo Request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo-small">SaaS <span>Team</span></div>
+            <p>&copy; 2026 SaaS Team. Built for fast-moving startups.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
